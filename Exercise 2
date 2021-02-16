@@ -1,0 +1,15 @@
+// W3 Exercise 2
+// 2_15_21
+// Printing sum of 2 numbers
+
+package JavaOnePackage;
+
+public class ClassOne {
+	public static void main(String[] args) 
+	{
+		int num1 = 23;
+		int num2 = 48;
+		System.out.println(num1+num2);
+		
+	}
+}
