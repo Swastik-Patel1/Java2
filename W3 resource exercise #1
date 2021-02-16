@@ -1,0 +1,14 @@
+// W3 resource exercise #1
+// 2_15_21
+// Writing your name
+
+package JavaOnePackage;
+
+public class ClassOne {
+	public static void main(String[] args) 
+	{
+		System.out.println("Hello, \nSwastik Patel");
+		
+	}
+}
+
