@@ -1,0 +1,21 @@
+// Exercise 13
+// 2_17_21
+// Write a Java program to print the area and perimeter of a rectangle
+
+package JavaOnePackage;
+
+import java.util.Scanner;
+public class ClassOne {
+	public static void main(String[] args) 
+	{
+		Scanner in = new Scanner(System.in);
+		System.out.println("Enter length of side 1: ");
+		double num1 = in.nextDouble();
+		
+		System.out.println("Enter length of side 2: ");
+		double num2 = in.nextDouble();
+		
+		
+	}
+}
+
