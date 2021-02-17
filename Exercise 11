@@ -12,8 +12,8 @@ public class ClassOne {
 		System.out.println("Enter a number: ");
 		double radius = in.nextDouble();
 		
-		
-		System.out.println("Area = "+Math.PI*radius*radius);
+		System.out.println("Area = " + Math.PI * radius * radius);
+		System.out.println("Perimeter = " + Math.PI * radius * 2);
 	
 	}
 }
