@@ -18,6 +18,7 @@ public class ClassOne {
 		System.out.println("Enter a number: ");
 		double num3 = in.nextDouble();
 	
+		System.out.println("Average = " + (num1+num2+num3)/3);
 	}
 }
 
