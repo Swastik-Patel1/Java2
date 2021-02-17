@@ -1,0 +1,17 @@
+// Exercise 9
+// 2_16_21
+// Write a Java program to compute the specified expressions and print the output
+
+package JavaOnePackage;
+
+import java.util.Scanner;
+public class ClassOne {
+	public static void main(String[] args) 
+	{
+		Scanner in = new Scanner(System.in);
+		System.out.println("Enter a number:\n");
+		
+	
+	}
+}
+
