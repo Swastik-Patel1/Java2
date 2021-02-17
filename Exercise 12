@@ -1,0 +1,23 @@
+// Exercise 12
+// 2_16_21
+// Write a Java program that takes three numbers as input to calculate and print the average of the numbers
+
+package JavaOnePackage;
+
+import java.util.Scanner;
+public class ClassOne {
+	public static void main(String[] args) 
+	{
+		Scanner in = new Scanner(System.in);
+		System.out.println("Enter a number: ");
+		double num1 = in.nextDouble();
+		
+		System.out.println("Enter a number: ");
+		double num2 = in.nextDouble();
+		
+		System.out.println("Enter a number: ");
+		double num3 = in.nextDouble();
+	
+	}
+}
+
