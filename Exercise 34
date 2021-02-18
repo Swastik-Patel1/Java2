@@ -1,0 +1,19 @@
+// Exercise 34
+// 2_17_21
+// Write a Java program to compute the area of a hexagon.
+
+package JavaOnePackage;
+
+import java.util.Scanner;
+public class ClassOne {
+	public static void main(String[] args) 
+	{
+		Scanner in = new Scanner(System.in);
+		System.out.println("Enter num1: ");
+		int num1 = in.nextInt();
+		System.out.print("The area of the hexagon is: " + hexagonArea(s)+"\n");
+
+	}
+	public double hexagonArea(int n)
+}
+
