@@ -11,9 +11,11 @@ public class ClassOne {
 		Scanner in = new Scanner(System.in);
 		System.out.println("Enter num1: ");
 		int num1 = in.nextInt();
-		System.out.print("The area of the hexagon is: " + hexagonArea(s)+"\n");
+		System.out.print("The area of the hexagon is: " + hexagonArea(num1)+"\n");
 
 	}
-	public double hexagonArea(int n)
+	public static double hexagonArea(int s) {
+		return (6*(s*s))/(4*Math.tan(Math.PI/6));
+	}
 }
 
